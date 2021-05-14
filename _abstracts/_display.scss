@@ -1,0 +1,7 @@
+$displayProps: ("block", "inline-block", "inline", "flex", "grid", "inline-flex", "inline-grid", "table", "inline-table", "list-item", "none", "contents");
+
+@each $disp in $displayProps {
+  .d-#{$disp} {
+    display: #{$disp};
+  }
+}
